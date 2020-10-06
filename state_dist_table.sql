@@ -1,0 +1,2 @@
+create table statedistcovidStats (id int not null, State varchar(20), District varchar(20), Active int, Recovered int, Confirmed int, Deceased int, Date varchar(10));
+create table statecovidstats(id int not null, State varchar(20), District varchar(20),Recovered int, Active int, Confirmed int, Deceased int, Date varchar(10));
